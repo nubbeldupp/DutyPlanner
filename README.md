@@ -3,6 +3,8 @@
 ## 🌟 Overview
 On-Call Duty Planner is a web-based application designed to manage and schedule on-call shifts for database teams. It supports multiple teams, shift types, and role-based access control.
 
+![Dashboard Screenshot](/screenshots/Dashboard.png)
+
 ## ✨ Features
 - 🏢 Multiple Teams Support: Hana, Oracle, Postgres, SQLServer
 - 👥 User Management
