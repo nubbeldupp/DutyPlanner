@@ -1,0 +1,77 @@
+# Perosnal Configuration
+config.php
+mail.php
+.windsurfrules
+
+# PHP
+/vendor/
+composer.lock
+.phpunit.result.cache
+
+# Configuration
+/includes/config.php
+.env
+
+# Logs
+/logs/*
+*.log
+
+# Cache
+/cache/*
+*.cache
+
+# IDE/Editor specific
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Node modules (if using any JavaScript build tools)
+/node_modules/
+package-lock.json
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+
+# Compiled assets
+/public/assets/dist/
+
+# Testing
+/phpunit.xml
+/tests/coverage/
+
+# Local development
+*.local.php
+local.php
+
+# Backup files
+*.bak
+*.backup
+*~
+
+# Security
+*.pem
+*.key
+*.crt
+*.csr
+*.cer
+
+# Database
+*.sql.gz
+*.mysql
+*.sqlite
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db 

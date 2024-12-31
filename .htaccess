@@ -1,0 +1,20 @@
+RewriteEngine On
+# Ensure PHP files can be accessed
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^shifts$ shifts.php [L,QSA]
+RewriteRule ^shifts/$ shifts.php [L,QSA]
+
+# Prevent directory listing
+Options -Indexes
+
+# Protect sensitive files
+<FilesMatch "^(config\.php|\.htaccess|database\.sql)$">
+    Order Allow,Deny
+    Deny from all
+</FilesMatch>
+
+# Add proper MIME types
+AddType application/x-httpd-php .php
+AddType text/css .css
+AddType application/javascript .js

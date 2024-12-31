@@ -1,0 +1,121 @@
+:root {
+    --white: #FFFFFFff;
+    --midnight-green: #064B57ff;
+    --khaki: #BBA389ff;
+    --yellow-green: #B5CC32ff;
+    --ash-gray: #B2BAB5ff;
+}
+
+body {
+    background-color: var(--white);
+    color: var(--midnight-green);
+    font-family: 'Inter', 'Segoe UI', Roboto, sans-serif;
+}
+
+.navbar.bg-dark {
+    background-color: var(--midnight-green) !important;
+}
+
+.navbar-dark {
+    background-color: var(--midnight-green) !important;
+}
+
+.navbar-dark .navbar-brand,
+.navbar-dark .navbar-nav .nav-link {
+    color: var(--white) !important;
+}
+
+.navbar-brand {
+    color: var(--white) !important;
+    font-weight: bold;
+}
+
+.navbar-nav .nav-link {
+    color: var(--white) !important;
+    transition: color 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover {
+    color: var(--yellow-green) !important;
+}
+
+.card {
+    border: none;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px rgba(6, 75, 87, 0.1);
+    margin-bottom: 20px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(6, 75, 87, 0.15);
+}
+
+.card-header {
+    background-color: var(--khaki);
+    color: var(--white);
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+}
+
+.btn-primary {
+    background-color: var(--midnight-green);
+    border-color: var(--midnight-green);
+    transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: var(--yellow-green);
+    border-color: var(--yellow-green);
+}
+
+.badge {
+    font-weight: 500;
+}
+
+/* FullCalendar Customization */
+.fc-toolbar-title {
+    color: var(--midnight-green);
+}
+
+.fc-button {
+    background-color: var(--khaki) !important;
+    border-color: var(--khaki) !important;
+    color: var(--white) !important;
+}
+
+.fc-button:hover {
+    background-color: var(--yellow-green) !important;
+    border-color: var(--yellow-green) !important;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    .card {
+        margin-bottom: 15px;
+    }
+}
+
+/* Smooth Transitions */
+* {
+    transition: all 0.3s ease;
+}
+
+/* Scrollbar Styling */
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: var(--ash-gray);
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--midnight-green);
+    border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: var(--yellow-green);
+}
