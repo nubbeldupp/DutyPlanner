@@ -98,7 +98,7 @@ Configure your web server to point to the project root directory.
 4. 📤 Push to the branch
 5. 🔀 Create a Pull Request
 
-## Screenshots
+## 🤳 Screenshots
 ![Approve Shifts Screenshot](/screenshots/ApproveShifts.png)
 ![Create My Shift Screenshot](/screenshots/CreateMyShift.png)
 ![My Shifts Screenshot](/screenshots/MyShifts.png)
