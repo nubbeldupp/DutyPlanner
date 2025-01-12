@@ -6,7 +6,7 @@ On-Call Duty Planner is a web-based application designed to manage and schedule 
 ![Dashboard Screenshot](/screenshots/Dashboard.png)
 
 ## ✨ Features
-- 🏢 Multiple Teams Support: Hana, Oracle, Postgres, SQLServer
+- 🏢 Multiple Teams Support
 - 👥 User Management
 - 🔐 Role-Based Access Control
 - 📅 Shift Scheduling
